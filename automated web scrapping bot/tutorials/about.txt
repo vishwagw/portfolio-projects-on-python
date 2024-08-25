@@ -1,0 +1,44 @@
+Web scrapping is basically extracting data from websites.
+This method has been a great method to extract informarion from the internet and its vast expance.
+Pythpn is a better programming language for web scrapping tools.
+
+first we are going to learn about the tools and libraries that ar designed for web scarpping. 
+
+1.
+Request is a library that can be usd for scrapping tools.
+Requests module has several bult-in methods to make HTTP requests to specified URL using GET,POST,PUT,PATCH, or HEAD.
+It works as a request-protocol between a client and a server.
+Here we will be using the GET request. 
+The GET method is used to retrieve information from the given server using a given URI. 
+The GET method sends the encoded user information appended to the page request.
+
+Beautiful Soup library provides a few simple methods and pythonic phrases for guiding, searching and changing a parse tree: a toolkit for studying a document and removing what you need.
+Beautiful Soup automatically converts incoming records to Unicode and outgoing forms to UTF-8.
+You don’t have to think about encodings unless the document doesn’t define an encoding, and Beautiful Soup can’t catch one.
+
+
+2.
+After extracting the html strucutre with Beautiful Soup, now we are going to extract useful data from the html content.
+The soup object contains all the  data in The nested strucutre which could be programmatically extracted.
+The website we want to scrape contains a lot of text so now let’s scrape all those content. 
+First, let’s inspect the webpage we want to scrape.
+
+
+3.
+Selenium is a popular python library / module that is used for automating web browsers.
+It allow developers to control web browsers programmatically, enabaling tasks such as web scrappin, automated testing, and web application interaction.
+Selenium supports various web browsers, including chrome, Firefox, Safari, and Edge, making it a versatile tool for browser automation.
+
+
+4.
+Lxml module is a python library for processing xml and html parsing capabilities along with a simple and pythonic API.
+lxml is widely used in python web scrapping due to its speed, flexibility, and ease of use.
+
+5.
+Now we are suing the Urllib module that is a built-inlibrary that provides functions for working with URLs. 
+It allows you to interact with web pages by fetching URLs (Uniform Resource Locators), opening and reading data from them, and performing other URL-related tasks like encoding and parsing.
+
+6.
+now we are learning about the PyautoGUI. 
+This is a python module cross-platform GUI automation library that enables developers to control the mouse and keyboard to automated tasks.
+While it’s not specifically designed for web scraping, it can be used in conjunction with other web scraping libraries like Selenium to interact with web pages that require user input or simulate human actions.
